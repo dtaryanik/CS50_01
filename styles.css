@@ -1,0 +1,38 @@
+div {
+    background-color: teal;
+    width: 590px;
+    height: 400px;
+    
+}
+div:hover {
+    color:black;
+    }
+input[type=text] {
+    background-color: red;
+}
+input[type=number]{
+    color:blue;
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    background-color: green;
+}
+button:hover{
+    background-color:orange ;
+}
+button:focus{
+    background-color: yellow;
+}
+button:active{
+    background-color: purple;
+    border: rebeccapurple;
+}
+button:focus-visible{
+    background-color: yellow;
+}
+p::selection{
+    color:red;
+    background-color:yellow;
+}
